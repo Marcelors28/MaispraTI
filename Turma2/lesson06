@@ -1,0 +1,162 @@
+//console.log(10 > 5) //true
+//console.log(10 < 5) //false
+//console.log(10 <= 5) //false
+//console.log(10 >= 5) //true
+//console.log(10 = 5) //false
+//console.log(10 == '10') //true
+//console.log(10 === '10') //false
+//console.log(10 != '10') //false
+
+//Operadores lógicos
+
+//console.log((10 < 5) && (10 > 2)) //false
+//console.log((10 > 5) || (10 < 2)) //true
+//console.log((10 > 5) || !(10 < 2)) //true
+//console.log(!(10 > 5) || (10 < 2)) //false
+
+//let user = 'marcelo'
+//let senha = '1234'
+
+//let authentification = user == 'marcelo' && senha == '1234'
+
+//console.log(authentification)
+
+// const grade = 60
+
+// if(grade >= 60){
+//     console.log('Aprovado')
+// } else{
+//     console.log('Reprovado')
+// }
+
+// let age = 50
+
+// if((age >= 18) && (age <= 32)){
+//     console.log('Pode prestar concurso')
+// } else{
+//     console.log('Não pode prestar concurso')
+// }
+
+//Exercício 1: verificar número par ou ímpar
+
+// let num = 15
+
+// if(num % 2 === 0){
+//     console.log('Número par')
+// } else{
+//     console.log('Número ímpar')
+// }
+
+//Exercício 2: comparação de Três números
+// Escreva um programa que receba três números e determimne qual é o maior
+
+// num1 = 10
+// num2 = 0
+// num3 = 5
+
+// if((num1 > num2) && (num1 > num3)){
+//     console.log('Maior é o num1')
+// } else if((num2 > num1) && (num2 > num3)){
+//     console.log('Maior é o num2') 
+// } else{
+//     console.log('Maior é o num3')
+// }
+
+//Exercício 3: Calculadora Simples
+//Escreva uma programa que implemente uma calculadora com operações de + / - / * / /
+
+// const prompt = require('prompt-sync')()
+
+// let num1 = Number(prompt('Insire o primeiro valor: '))
+// let num2 = Number(prompt('Insire o segundo valor: '))
+// let operation = (prompt('Informe a operação desejada(+, -, *, /): '))
+// let result = 0
+
+// if(operation === '+'){
+//     result = num1 + num2
+// } else if (operation === '-'){
+//     result = num1 - num2
+// }else if (operation === '*'){
+//     result = num1 * num2
+// }else if (operation === '/'){
+//     if(num2 !== 0){
+//     result = num1 / num2
+//     } else {
+//         console.log("Erro: divisão por zero !")
+//         result = undefined
+//     }
+// } else {
+//     console.log('operação invalida')
+//     result = undefined
+// }   
+
+// if(result !== undefined){
+//     console.log("Resultado: ", result)
+// }
+
+// let option = 0
+
+// switch(option){
+//     case 1:
+//         console.log('Você selecionou a primeira opção')
+//         break
+//     case 2:
+//         console.log('Você selecionou a segunda opção')
+//         break
+//     default:
+//         console.log('Você não escolheu nehuma opção')
+//         break
+
+// }
+
+// Exercício 4
+
+
+// const prompt = require('prompt-sync')()
+
+// let dia = Number(prompt('Insire o valor: '))
+
+
+// switch(dia){
+//     case 1:
+//         console.log('Domingo')
+//         break
+//     case 2:
+//         console.log('Segunda')
+//         break
+//     case 3:
+//         console.log('Terça')
+//         break
+//     case 4:
+//         console.log('Quarta')
+//         break
+//     case 5:
+//         console.log('Quinta')
+//         break
+//     case 6:
+//         console.log('Sexta')
+//         break
+//     case 7:
+//         console.log('Sabado')
+//         break
+
+//     default:
+//         console.log('Você não escolheu nehuma opção')
+//         break
+
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
